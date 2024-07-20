@@ -7,7 +7,7 @@ import {getKindeServerSession} from "@kinde-oss/kinde-auth-nextjs/server";
 
 export default async function DashLayout({ children }) {
     const {getUser} = getKindeServerSession();
-    const user = await getUser() || "user";
+    const user = await getUser();
 
   return (
     // <html lang="en">
@@ -34,7 +34,7 @@ export default async function DashLayout({ children }) {
                     ></Image>
                 </div>
                 <div className="md:block pt-1 first-line:justify-center font-bold text-md md:text-lg lg:text-xl first:items-center">
-                    {user && user.given_name}
+                    {user?.given_name}
                 </div>
             </div>
 
