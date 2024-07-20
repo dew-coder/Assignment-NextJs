@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js App with App Router
 
-## Getting Started
+This is a Next.js project that uses the App Router for routing. The project is designed to demonstrate a clean and responsive layout, adapting to both desktop and mobile views.
 
-First, run the development server:
+## Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Check out the live demo of the project [here](https://assignmentwhatbytes.vercel.app/).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- *Responsive Design*: Adapts to different screen sizes for an optimal viewing experience.
+- *Visual Representation*: Features interactive and visually appealing charts for data visualization.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies
 
-## Learn More
+- *Next.js*
+- *Tailwind CSS*
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To get started, follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. *Clone the repository:*
+    ```bash
+    git clone https://github.com/dew-coder/Assignment-NextJs.git
+2. *Go to directory*
+    ```bash
+    cd Assignment-NextJs
+3. *Install the dependencies:*
+    ```bash
+    npm install
+4. *Set up the environment variables:*
+   Create a .env.local file in the root of the project and add your Kinde variables:
+    ```bash
+     KINDE_CLIENT_ID=<YOUR ID>
+     KINDE_CLIENT_SECRET=<YOUR KEY>
+     KINDE_ISSUER_URL=<YOUR URL>
+     KINDE_SITE_URL=http://localhost:3000
+     KINDE_POST_LOGOUT_REDIRECT_URL=http://localhost:3000/
+     KINDE_POST_LOGIN_REDIRECT_URL=http://localhost:3000/dashboard    
 
-## Deploy on Vercel
+## Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. *Run the development server:*
+    ```bash
+    npm run dev
+2. *Open the application:*
+    Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contributing
+
+Contributions are welcome! To contribute, follow these steps:
+
+1. *Fork the repository.*
+2. *Create a new branch:*
+    ```bash
+    git checkout -b feature/your-feature  
+3. *Commit your changes:*
+    ```bash
+    git commit -m 'Add your feature'
+4. *Push to the branch:*
+    ```bash
+    git push origin feature/your-feature
+5. *Create a new Pull Request.*
+
+
+## Images 
+
+![Screenshot 2024-07-21 000458](https://github.com/user-attachments/assets/228c64e3-4e2d-4c0b-b0b7-7a416e13d038)
+![Screenshot 2024-07-21 000518](https://github.com/user-attachments/assets/9c5f6dda-0641-4b31-a442-413b4d27678c)
+![Screenshot 2024-07-21 000525](https://github.com/user-attachments/assets/7718d696-487f-447c-ae31-fca267f017ba)
+![Screenshot 2024-07-21 000623](https://github.com/user-attachments/assets/3f8749e6-ad1c-4540-a819-699791a3039a)
+![i1](https://github.com/user-attachments/assets/917bcc7b-2872-470f-9799-ace7835ec43a)
+![i2](https://github.com/user-attachments/assets/6f286899-efc8-4d27-a9b2-d84fd5a57265)
+![i3](https://github.com/user-attachments/assets/e170da1e-015f-4769-a1c8-24fbf8a75339)
+
+
+
+
+
+
+---
+
+For more information, visit the [GitHub repository](https://github.com/dew-coder).
